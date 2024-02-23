@@ -27,7 +27,20 @@ a {
     }
 }
 
-h1, 
+.border-test {
+    border-style: dotted;
+}
+
+.service-box img {
+    margin: auto;
+    display: block;
+}
+
+
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
 h2,
 h3,
 h4,
@@ -214,7 +227,7 @@ header {
 }
 
 .service-box {
-    max-width: 400px;
+    max-width: 500px;
     margin: 50px auto 0;
     @media (min-width: 992px) {
         margin: 20px auto 0;
@@ -223,6 +236,14 @@ header {
         margin-bottom: 0;
     }
 }
+// li::marker {
+//     width: 10px;
+//     height: 10px;
+//     content: url("https://www.svgrepo.com/show/326119/star-small.svg");
+//   }
+
+//  li {padding-left: 1ch;} 
+
 
 .portfolio-box {
     position: relative;
